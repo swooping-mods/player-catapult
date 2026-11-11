@@ -1,0 +1,34 @@
+{
+  "id": "player-catapult",
+  "kind": "native",
+  "version": "0.2.0",
+  "display_name": "Player Catapult",
+  "gameplay": true,
+  "feature_dependencies": [
+    "shop-framework",
+    "equipment-framework",
+    "hints-framework"
+  ],
+  "play_help": [
+    "Buy the Player Catapult in Modded Shop and assign its Equipment slot.",
+    "P places, E launches from the rear bucket and O packs.",
+    "Native shop/equipment integration implemented; gameplay testing deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "equipment-framework.equipment",
+      "abi": 1,
+      "min_size": 32
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    }
+  ]
+}

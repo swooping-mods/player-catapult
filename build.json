@@ -1,0 +1,6 @@
+{
+  "schema": "moon-independent-build-spec/v1",
+  "id": "player-catapult",
+  "kind": "native",
+  "entry": "mods/player-catapult/mod.c"
+}
