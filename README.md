@@ -1,5 +1,7 @@
 # Player Catapult
 
+<img src="media/icon.png" alt="Player Catapult icon" width="128" height="128">
+
 Buy the Player Catapult in Modded Shop and assign its Equipment slot.
 
 ## Install
